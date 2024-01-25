@@ -15,16 +15,8 @@
     <title>Silent Speak | Home</title>
 
     <!-- Bootstrap core CSS -->
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-<!--
-
-TemplateMo 570 Chain App Dev
-
-https://templatemo.com/tm-570-chain-app-dev
-
--->
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -35,9 +27,8 @@ https://templatemo.com/tm-570-chain-app-dev
   </head>
 
 <body>
-
-  <!-- ***** Header Area Start ***** -->
-  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+<!-- ***** Header Area Start ***** -->
+<header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -64,63 +55,4 @@ https://templatemo.com/tm-570-chain-app-dev
   </header>
   <!-- ***** Header Area End ***** -->
 
-  <!-- main todo container -->
-  <div class="container todo">
-    <!-- header that has input and add button -->
-    <header>
-        <h1>Todo List</h1>
-
-        <div class="input-section">
-            <input id="todo-input" type="text" placeholder="📑 Add your todo here.."
-                class="input w-full max-w-xs" />
-            <button id="add-button" class="btn btn-add ">
-                <i class="bx bx-plus bx-sm"></i>
-            </button>
-        </div>
-    </header>
-
-    <!-- delete buttons -->
-
-    <div class="todos-filter">
-
-        <button id="delete-selected" class="btn btn-ghost delete-selected-btn">
-            Delete Selected
-        </button>
-        <button id="delete-all" class="btn btn-ghost delete-all-btn">
-            Delete All
-        </button>
-    </div>
-
-
-    <!-- this is the dynamic content which dds ups all the todos -->
-    <ul id="all-todos" class="todos-list">
-
-    </ul>
-
-
-    <!-- dropdown throgh which we can apply filters -->
-    <div class="filters">
-        <div class="dropdown">
-            <button class="dropbtn">Filter</button>
-            <div class="dropdown-content">
-                <a href="#" id="all">All</a>
-                <a href="#" id="rem">Pending</a>
-                <a href="#" id="com">Completed</a>
-            </div>
-        </div>
-
-        <!-- value showing completed task and all -->
-        <div class="completed-task">
-            <p>Completed: <span id="c-count">0</span></p>
-        </div>
-        <div class="remaining-task">
-            <p>Total Tasks: <span id="r-count">0</span></p>
-        </div>
-    </div>
-</div>
-
-<!-- JS -->
-<script src="todo.js"></script>
-
-    </body>
-    </html>
+    </body> </html>
